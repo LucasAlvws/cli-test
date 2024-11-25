@@ -12,8 +12,9 @@ typer = "^0.13.1"
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.8.0"
 
-[tool.poetry.group.selenium.dependencies]
-selenium = {version = "^4.26.1", extras = ["selenium"]}
+
+[tool.poetry.group.seleniumt.dependencies]
+selenium = {version = "^4.26.1", optional = true, extras = ["seleniumt"]}
 
 [build-system]
 requires = ["poetry-core"]
